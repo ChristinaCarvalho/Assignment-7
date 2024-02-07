@@ -86,6 +86,8 @@ public class App {
         System.out.println("Sorted Array:");
         System.out.println(Arrays.toString(arrayFromFile));
 
+        writeArrayToFile(arrayFromFile, "sortedArray.txt");
+
         scanner.close();
     }
 }
